@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adri9ps.adrianpovedaexamen.Subactivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INFO SELECCIONADA:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08" />
+
+        <TextView
+            android:id="@+id/txt_InfoNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:text="Nombre y apellido:" />
+
+        <TextView
+            android:id="@+id/txtInfoEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edad:"
+            android:layout_weight="0.04" />
+
+        <TextView
+            android:id="@+id/txtInfoSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sexo:"
+            android:layout_weight="0.05" />
+
+        <TextView
+            android:id="@+id/txtInfoPuntuacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Puntuación:"
+            android:layout_weight="0.05" />
+
+        <TextView
+            android:id="@+id/txtInfoLecturas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="Lecturas:" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13" />
+
+        <Button
+            android:id="@+id/id_cerrar"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:layout_weight="0.22"
+            android:text="CERRAR" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
